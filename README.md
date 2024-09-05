@@ -5,8 +5,7 @@
 
 A *very slow imperfect* object renderer using only pygame's 2D functionality.
 
-<img src="./assets/cube.gif" alt="spinning cube" width="300"/>
-<img src="./assets/monkey.gif" alt="spinning monkey" width="300"/>
+<img src="./assets/cube.gif" alt="spinning cube" width="300"/><img src="./assets/monkey.gif" alt="spinning monkey" width="300"/>
 
 This served as my Computer Science 30 (Grade 12) final project. We were tasked with making a substantial project that demonstrated the use of Object Oriented Programming (OOP).
 
