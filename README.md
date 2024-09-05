@@ -15,7 +15,17 @@ This served as my Computer Science 30 (Grade 12) final project. We were tasked w
 Just copy and paste into your terminal, select an object, and you will see it.
 
 ```
-git clone 
+git clone https://github.com/TheeeEVan/renderer
+cd renderer
+pip3 install -r requirements.txt
+python3 main.py
 ```
 
-*This guide assumes that you have git, python3, and pip installed properly.*
+*Note: This guide assumes that you have git, python3, and pip installed properly.*
+
+## Requirements
+This project uses the following packages
+- pygame
+
+## Issues
+You will notice with more complex shapes such as the monkey some faces render improperly. This is mainly because I did not properly implement z-buffering. Instead I cheated through z buffering by simply taking the average z of all vertices of a face, then drawing faces starting with the furthest back ones. This works flawlessly with simple shapes such as the cube, however with more complex shapes issues arise. This choice was mainly due to time limitations.
