@@ -1,0 +1,1 @@
+This is a blender script that I threw together to quickly export objects to pyobj. It's nothing fancy and was based off of a blender plugin template.
